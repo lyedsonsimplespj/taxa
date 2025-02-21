@@ -1,0 +1,9 @@
+<html><head>       <meta http-equiv="Content-Type" content="text/html; charset=utf-8">       <title>404 Not Found</title>       <style>           body{margin:0;padding:30px;font:12px/1.5 Helvetica,Arial,Verdana,sans-serif}           h1{margin:0;font-size:48px;font-weight:normal;line-height:48px}           strong{display:inline-block;width:65px}       </style>   </head>   <body>       <h1>404 Not Found</h1>       <div><p>The application could not run because of the following error:</p><h2>Details</h2><div><strong>Type:</strong> Slim\Exception\HttpNotFoundException</div><div><strong>Code:</strong> 404</div><div><strong>Message:</strong> Not found.</div><div><strong>File:</strong> /var/www/clients/client1/web14/web/vendor/slim/slim/Slim/Middleware/RoutingMiddleware.php</div><div><strong>Line:</strong> 91</div><h2>Trace</h2><pre>#0 /var/www/clients/client1/web14/web/vendor/slim/slim/Slim/Middleware/RoutingMiddleware.php(58): Slim\Middleware\RoutingMiddleware-&gt;performRouting()
+#1 /var/www/clients/client1/web14/web/vendor/slim/slim/Slim/MiddlewareDispatcher.php(147): Slim\Middleware\RoutingMiddleware-&gt;process()
+#2 /var/www/clients/client1/web14/web/vendor/slim/slim/Slim/Middleware/ErrorMiddleware.php(107): Psr\Http\Server\RequestHandlerInterface@anonymous-&gt;handle()
+#3 /var/www/clients/client1/web14/web/vendor/slim/slim/Slim/MiddlewareDispatcher.php(147): Slim\Middleware\ErrorMiddleware-&gt;process()
+#4 /var/www/clients/client1/web14/web/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): Psr\Http\Server\RequestHandlerInterface@anonymous-&gt;handle()
+#5 /var/www/clients/client1/web14/web/vendor/slim/slim/Slim/App.php(215): Slim\MiddlewareDispatcher-&gt;handle()
+#6 /var/www/clients/client1/web14/web/vendor/slim/slim/Slim/App.php(199): Slim\App-&gt;handle()
+#7 /var/www/clients/client1/web14/web/public/index.php(38): Slim\App-&gt;run()
+#8 {main}</pre></div>       <a href="#" onclick="window.history.go(-1)">Go Back</a>   </body></html>
